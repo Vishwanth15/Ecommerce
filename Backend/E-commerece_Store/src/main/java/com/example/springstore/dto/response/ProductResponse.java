@@ -1,0 +1,17 @@
+package com.example.springstore.dto.response;
+
+
+import java.math.BigDecimal;
+
+import lombok.Data;
+
+@Data
+public class ProductResponse {
+    private Long id;
+    private String name;
+    private String description;
+    private BigDecimal price;
+    private Integer stock;
+    private String imageUrl;
+    private String categoryName;
+}
